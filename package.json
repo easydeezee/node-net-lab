@@ -1,0 +1,29 @@
+{
+  "name": "node-net-lab",
+  "version": "1.0.0",
+  "description": "Node net lab.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest --verbose",
+    "test:watch": "npm run test -- --watch",
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easydeezee/node-net-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/easydeezee/node-net-lab/issues"
+  },
+  "homepage": "https://github.com/easydeezee/node-net-lab#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}
