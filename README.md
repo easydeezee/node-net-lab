@@ -8,3 +8,7 @@ Node net lab.
 1. create html and json pages
 1. read file and conditionally pass contents
 1. create tests
+1. create individual html files
+1. create a makeHTTP function
+1. 
+
