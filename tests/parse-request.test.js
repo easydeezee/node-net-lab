@@ -1,4 +1,4 @@
-const { parseRequest } = require('../utilities/parse-request');
+const { parseRequest } = require('../lib/utilities/parse-request');
 
 describe('parseRequest function', () => {
   it('returns correct method and path', () => {

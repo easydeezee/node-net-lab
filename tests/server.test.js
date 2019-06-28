@@ -1,5 +1,5 @@
 const request = require('supertest');
-const { server } = require('../server');
+const server = require('../lib/server');
 
 describe('server tests', () => {
   it('returns 404 not found if path not found', () => {
